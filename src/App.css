@@ -1,0 +1,99 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  background-color: #181818; /* primary */
+  color: #E4E6EB; /* secondary */
+}
+
+.app-title {
+  margin-bottom: 20px;
+  color: #0d9a3e; /* themeColor */
+}
+
+.app-description, .app-purpose {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.delete-account-form {
+  margin: auto;
+  width: 100% /* Adjust as needed */
+}
+
+.delete-account-form .form-control {
+  background-color: #181818; /* primary */
+  color: #E4E6EB; /* secondary */
+  border-color: #0d9a3e; /* themeColor */
+  
+}
+
+.delete-account-steps {
+  list-style-type: none;
+  padding: 0;
+  color: #E4E6EB; /* secondary */
+}
+.delete-account-form .form-label {
+  color: #E4E6EB; /* secondary */
+}
+
+.delete-account-form .btn-primary {
+  background-color: #0d9a3e; /* themeColor */
+  border-color: #588860; /* heighLight */
+}
+.app-container div {
+  background-color: #181818; /* primary */
+}
+.app-logo {
+  width: 100px; /* Adjust as needed */
+  height: 100px;
+  
+}
+.custom-accordion {
+  width:50%; /* Adjust as needed */
+  border: none;
+  background-color: #181818; /* primary */
+}
+
+.custom-accordion-item {
+  background-color: #000; /* black */
+  color: #fff; /* white */
+}
+
+.custom-accordion-header {
+  background-color: #000; /* black */
+  color: #fff; /* white */
+}
+
+.custom-accordion-body {
+  display: flex;
+  flex-direction: column;
+ 
+  color: #E4E6EB; /* secondary */
+
+}
+
+.custom-card-body {
+  background-color: #181818; /* primary */
+  color: #E4E6EB; /* secondary */
+  border: none;
+
+}
+.accordion-button {
+  background-color: #181818 !important;
+  color: #E4E6EB !important;
+  border: 1px solid #fff !important;
+  border-radius: 10px !important; 
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 154, 62, 0.25) !important; /* themeColor with 25% opacity */
+  border-radius: 10px !important; 
+  border: none !important;
+}
+
