@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Container, Form, Button, Accordion, Card } from "react-bootstrap";
 
+import logoImage from "./assets/yumxLogo.png";
+
 import "./App.css";
 
 function App() {
@@ -65,7 +67,7 @@ function App() {
   return (
     <>
       <div className="app-container">
-        <img src="/YUM_X Logo.png" alt="Logo" className="app-logo" />
+        <img src={logoImage} alt="Logo" className="app-logo" />
         <Container className="app-container">
           <h1 className="app-title">Delete Account Steps</h1>
           <ol className="delete-account-steps list-group-numbered">
