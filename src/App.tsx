@@ -47,7 +47,6 @@ function App() {
         return;
       }
      
-      console.log(token);
       const delResponse = await fetch(
         api + deleteEndpoint,
 
@@ -60,7 +59,6 @@ function App() {
       const message = delData["message"]; 
       alert(message);
     } catch (error) {
-      console.error(error);
       alert("Failed to delete account - please try again later");
     }
   };
@@ -91,7 +89,7 @@ function App() {
           <h5 className="app-title">
             Or enter you account details below to be deleted
           </h5>
-          <Accordion defaultActiveKey="0" className="custom-accordion" flush>
+          <Accordion defaultActiveKey="0" className="custom-accordion col-12 col-sm-10 col-md-8 col-lg-6 mx-auto" flush>
             <Accordion.Item eventKey="0" className="custom-accordion-item" >
               <Accordion.Header className="custom-accordion-header"style={{ backgroundColor: '#343a40' }} >
                 Delete account
@@ -100,7 +98,7 @@ function App() {
                 <Card.Body>
                   <Form
                     onSubmit={handleDeleteAccount}
-                    className="delete-account-form"
+                    className="delete-account-form "
                   >
                     <Form.Group controlId="formEmail">
                       <Form.Label>Email address</Form.Label>
