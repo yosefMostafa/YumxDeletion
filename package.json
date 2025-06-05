@@ -1,7 +1,6 @@
 {
-  "homepage": "https://yosefMostafa.github.io/YumX-Account-Deletion",
-
-  "name": "delete-yumx-account",
+  "homepage": "https://yosefmostafa.github.io/YumxDeletion",
+  "name": "YumxDeletion",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,9 +15,11 @@
   "dependencies": {
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
+    "delete-yumx-account": "file:",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "YumxDeletion": "file:"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
